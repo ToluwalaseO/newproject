@@ -20,10 +20,15 @@ const storeItems = [
 
 const Store = () => {
     return (
+        <div className="store">
+            <div className='jim'>
+                <h1>Headphones For You!</h1>
+            </div>
         <div className="store-container">
             {storeItems.map((item, index) => (
                 <StoreItem key={index} item={item} />
             ))}
+        </div>
         </div>
     );
 };

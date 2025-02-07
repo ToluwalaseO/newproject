@@ -1,25 +1,33 @@
 /* Store.css */
 
 .store-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns layout */
     gap: 20px;
     justify-content: center; /* Center the items */
+    align-items: center;
 }
+X
+.jim h1{
+position:60px;
+left:20px;
+}
+
 
 .store-item {
     position: relative; /* Add relative positioning */
     border: 1px solid #ccc;
     padding: 10px;
-    width: 200px;
+    width: 180px;
+    height: 180px;
     text-align: center;
     background-color: #fff; /* Background color */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for better appearance */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 24px; /* Rounded corners */
 }
 
 .store-item img {
-    width: 100%;
+    width: 30%;
     height: auto;
     border-radius: 8px;
 }
@@ -77,4 +85,13 @@
         flex: 1 1 100%;
         text-align: left;
     }
+}
+
+.store2{
+    position: relative;
+    top:200px;
+}
+.store3{
+    position: relative;
+    top:400px;
 }

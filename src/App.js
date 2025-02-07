@@ -3,9 +3,10 @@ import Header from "./Header"
 import Header2 from "./Header2"
 import Part1 from "./Part1"
 import Store from"./Store"
-// import Collections from "./Collections.js"
+import Store2 from './Store2'
+import Store3 from "./Store3"
 import TopSection from "./TopSection"
-// import BottomSection from "./BottomSection"
+import Product from "./product"
 // import Footer from "./Footer"
 
 function App() {
@@ -16,6 +17,10 @@ function App() {
       <TopSection/> 
       <Part1/>
       <Store/>
+      <Store2/>
+      <Store3/>
+      <Product/>
+
       {/* <Part2/>
       <Collections/>
      

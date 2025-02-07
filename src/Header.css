@@ -1,0 +1,21 @@
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #023c29;
+    font-size: 10px;
+    color: white;
+    
+    
+}
+p:first-of-type {
+    position: relative;
+    left:60px;
+  } 
+  
+
+p:last-of-type {
+    position: relative;
+    right:300px;
+  }
+  

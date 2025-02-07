@@ -1,0 +1,64 @@
+.topbar7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar7 p{
+    background-color: #f3f3f3;
+    border-radius: 24px;
+    
+}
+
+.topbar7 :first-of-type{
+    height: 35px;
+}
+
+.topbar7 :nth-of-type(2){
+    height: 35px;
+    position: relative;
+    right:30px;
+
+}
+
+.topbar7 :nth-of-type(3){
+    height: 35px;
+    position: relative;
+    right:120px;
+
+}
+
+.topbar7 :nth-of-type(4){
+    height: 35px;
+    position: relative;
+    right:200px;
+
+}
+
+.topbar7 :nth-of-type(5){
+    height: 35px;
+    position: relative;
+    right:280px;
+
+}
+
+.topbar7 :nth-of-type(6){
+    height: 35px;
+    position: relative;
+    right:360px;
+
+}
+.topbar7 :nth-of-type(7){
+    height: 35px;
+    position: relative;
+    right:450px;
+
+}
+.topbar7 :nth-of-type(8){
+    height: 23px;
+    width: 75px;
+    position: relative;
+    right:350px;
+
+}

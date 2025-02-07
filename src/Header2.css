@@ -1,0 +1,69 @@
+.topbar2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar2 p:first-of-type{
+    font-size: 19px;
+    color: #3f6153;
+    font-weight: bold;
+}
+
+.topbar2 p:nth-of-type(2){
+    font-size: 13px;
+}
+
+.topbar2 p:nth-of-type(3) {
+    position: relative;
+    right: 70px; /* Adjusted value */
+    font-size: 13px;
+}
+.topbar2 p:nth-of-type(4) {
+    position: relative;
+    right: 120px; /* Adjusted value */
+    font-size: 13px;
+}
+
+
+
+.topbar2 p:nth-of-type(5) {
+    position: relative;
+    right: 180px; /* Adjusted value */
+    font-size: 13px;
+}
+
+.search-icon{
+    position: relative;
+
+}
+.search-container{
+    position: relative;
+    right:250px;
+    border:none;
+    border-radius: 24px;
+}
+.search-container input {
+    width: 100%;
+    padding: 10px 10px 10px 30px; /* Adjust padding to make room for the icon */
+    border: 1px solid #ccc;
+    height: 5px;
+    border-radius: inherit; /* Inherit the border radius from the container */
+}
+
+.nav-button1{
+    position: relative;
+    right:280px;
+    border: none;
+    background-color: white;
+}
+
+
+.nav-button2{
+    position: relative;
+    right:350px;
+    border: none;
+    background-color: white;
+}
+

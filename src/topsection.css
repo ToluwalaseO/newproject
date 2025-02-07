@@ -1,23 +1,28 @@
 .topsection{
     background-color: #fcf0e4;
-    width: 70%;
+    width: 100%;
     height:250px;
     position: relative;
-    left:60px;
+    left:220px;
 }
 
 
+.topbar4  :first-of-type p{
+    position: relative;
+    top:30px;
+}
 .topbar4{
     position: relative;
     left:160px;
-    bottom:170px;
+    bottom:250px;
     color:#05391e;
+    font-size: 23px;
 }
 
 .image21{
     position: relative;
-    left:400px;
-    top:50px;
+    left:750px;
+    top:28px;
 
 }
 .topbar4 button{
@@ -25,6 +30,8 @@
    border-radius: 24px;
    border: none;
    color: white;
-   height: 30px;
+   height: 50px;
    width:100px;
+   position: relative;
+   bottom: 10px
 }

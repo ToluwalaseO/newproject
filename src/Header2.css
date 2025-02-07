@@ -3,12 +3,22 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    left:230px;
 }
 
-.topbar2 p:first-of-type{
+.Chim {
     font-size: 19px;
     color: #3f6153;
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+} 
+
+.topbar2 p:first-of-type{
+    font-size: 13px;
 }
 
 .topbar2 p:nth-of-type(2){
@@ -22,7 +32,7 @@
 }
 .topbar2 p:nth-of-type(4) {
     position: relative;
-    right: 120px; /* Adjusted value */
+    right: 160px; /* Adjusted value */
     font-size: 13px;
 }
 

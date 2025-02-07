@@ -6,7 +6,11 @@ const Header2 = () => {
     return (
         <header className="header2">
             <div className="topbar2">
-            <p><img src="/onlinestore.png" alt="iconlogo" height={40} width={40} /> ShopCart</p> 
+                <div className="Chim">
+                <img src="/onlinestore.png" alt="iconlogo" height={40} width={40} />
+                <p>ShopCart</p> 
+                </div>
+            
                 <p>Categories ▼</p>
                 <p>Deals</p>
                 <p>What's New</p>

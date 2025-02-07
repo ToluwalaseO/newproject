@@ -12,11 +12,14 @@ const Header = () => {
             <div className="topbar">
                 <p><FontAwesomeIcon icon={faPhone} style={{ color: "#ededed" }} /> +001234567890</p>
                 <p>Get 50% off on Selected Items &nbsp;|&nbsp; Shop Now</p>
-                <p>Eng <FontAwesomeIcon icon={faCaretDown} style={{ color: "#ffffff" }} /> </p>
-                <p> Location <FontAwesomeIcon icon={faCaretDown} style={{ color: "#ffffff" }} /></p>
+                <p>Eng <FontAwesomeIcon icon={faCaretDown} style={{ color: "#ffffff" }} />
+                
+                 </p>
+                <p>Location <FontAwesomeIcon icon={faCaretDown} style={{ color: "#ffffff" }} /></p>
             </div>
         </header>
     );
 }
 
 export default Header;
+ 

@@ -1,42 +1,43 @@
-/* Store.css */
-
+.store,.store2,.store3 {
+    padding-left: 56px;
+    width: 70%;
+    position: relative;
+    left:310px;
+}
 .store-container {
     display: grid;
+    position: relative; /* Add relative positioning */
+    left: 20px;
     grid-template-columns: repeat(4, 1fr); /* 4 columns layout */
-    gap: 20px;
+    gap: 24px;
     justify-content: center; /* Center the items */
     align-items: center;
 }
 X
-.jim h1{
-position:60px;
-left:20px;
+.store.jim h1{
+position: relative;
+right:100px;
 }
-
-
 .store-item {
     position: relative; /* Add relative positioning */
     border: 1px solid #ccc;
     padding: 10px;
-    width: 180px;
-    height: 180px;
+    width: 290px;
+    height: 320px;
     text-align: center;
     background-color: #fff; /* Background color */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for better appearance */
     border-radius: 24px; /* Rounded corners */
 }
-
 .store-item img {
     width: 30%;
     height: auto;
     border-radius: 8px;
 }
-
 .star-rating {
     color: gold;
     font-size: 18px;
 }
-
 .add-to-cart {
     background-color: #000;
     color: #fff;
@@ -46,11 +47,9 @@ left:20px;
     cursor: pointer;
     margin-top: 10px;
 }
-
 .add-to-cart:hover {
     background-color: #333;
 }
-
 .add-to-favorites {
     position: absolute; /* Add absolute positioning */
     top: 10px; /* Position at the top */
@@ -61,23 +60,19 @@ left:20px;
     cursor: pointer;
     color: red;
 }
-
 .add-to-favorites:hover {
     color: darkred;
 }
-
 .actions {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
-
 @media (max-width: 768px) {
     .topbar2 {
         flex-direction: column;
         align-items: flex-start;
     }
-
     .topbar2 p,
     .topbar2 input,
     .topbar2 .nav-button1,
@@ -86,12 +81,11 @@ left:20px;
         text-align: left;
     }
 }
-
 .store2{
     position: relative;
-    top:200px;
+    top:0px;
 }
 .store3{
     position: relative;
-    top:400px;
+    top:0px;
 }

@@ -7,7 +7,7 @@ const TopSection = () => {
         <header className="topsection">
             <div className="topbar3">
             <div className="image21">
-            <img src="/newimage.png" alt="iconlogo" height={200} width={500} />
+            <img src="/newimage.png" alt="iconlogo" height={220} width={600} />
             </div>
             <div className="topbar4">
             <h1>Grab Upto 50% Off On</h1>

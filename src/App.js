@@ -19,7 +19,7 @@ function App() {
       <Store/>
       <Store2/>
       <Store3/>
-      <Product/>
+      {/* <Product/> */}
 
       {/* <Part2/>
       <Collections/>

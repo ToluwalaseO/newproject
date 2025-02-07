@@ -29,4 +29,3 @@ const Store = () => {
 };
 
 export default Store;
-x

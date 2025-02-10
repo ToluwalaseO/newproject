@@ -1,16 +1,18 @@
 .topsection{
     background-color: #fcf0e4;
-    width: 100%;
+    width: 88%;
     height:250px;
     position: relative;
-    left:220px;
+    top:10px;
+    left:40px;
 }
 
 
-.topbar4  :first-of-type p{
+.topbar4 h1:first-of-type {
     position: relative;
-    top:30px;
+    top: 45px;
 }
+
 .topbar4{
     position: relative;
     left:160px;
@@ -21,7 +23,7 @@
 
 .image21{
     position: relative;
-    left:750px;
+    left:620px;
     top:28px;
 
 }

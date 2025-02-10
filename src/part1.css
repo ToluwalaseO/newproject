@@ -1,66 +1,59 @@
-.topbar7{
+/* part1.css */
+
+.topbar7 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    left:200px;
+    left: 80px;
+    top: 30px;
 }
 
-.topbar7 p{
+.topbar7 p {
     background-color: #f3f3f3;
     border-radius: 24px;
-    
+    padding: 8px 16px; 
+    margin: 0 10px; 
+   
 }
 
-.topbar7 :first-of-type{
-    height: 35px;
-}
-
-.topbar7 :nth-of-type(2){
-    height: 35px;
+.topbar7 p:first-of-type {
     position: relative;
-    right:30px;
-
+    right:60px;
 }
 
-.topbar7 :nth-of-type(3){
-    height: 35px;
+.topbar7 p:nth-of-type(2) {
     position: relative;
-    right:120px;
-
+    right: 25px;
 }
 
-.topbar7 :nth-of-type(4){
-    height: 35px;
+.topbar7 p:nth-of-type(3) {
     position: relative;
-    right:200px;
-
+    right: 110px;
 }
 
-.topbar7 :nth-of-type(5){
-    height: 35px;
+.topbar7 p:nth-of-type(4) {
     position: relative;
-    right:280px;
-
+    right: 190px;
 }
 
-.topbar7 :nth-of-type(6){
-    height: 35px;
+.topbar7 p:nth-of-type(5) {
     position: relative;
-    right:360px;
-
+    right: 270px;
 }
-.topbar7 :nth-of-type(7){
-    height: 35px;
-    position: relative;
-    right:450px;
 
+.topbar7 p:nth-of-type(6) {
+    position: relative;
+    right: 352px;
 }
-.topbar7 :nth-of-type(8){
-    height: 23px;
-    width: 75px;
-    position: relative;
-    right:350px;
 
+.topbar7 p:nth-of-type(7) {
+    position: relative;
+    right: 432px;
+}
+
+.topbar7 p:nth-of-type(8) {
+    position: relative;
+    right: 210px;
 }

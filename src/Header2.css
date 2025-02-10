@@ -4,11 +4,11 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    left:230px;
+    left:130px;
 }
 
 .Chim {
-    font-size: 19px;
+    font-size: px;
     color: #3f6153;
     font-weight: bold;
     display: flex;
@@ -16,6 +16,12 @@
     justify-content: space-between;
 
 } 
+
+.Chim img{
+    position: relative;
+    left:65px;
+    font-size: 20px;
+}
 
 .topbar2 p:first-of-type{
     font-size: 13px;

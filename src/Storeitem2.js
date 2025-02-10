@@ -1,14 +1,16 @@
 // StoreItem.js
 import React from 'react';
 
-const StoreItem2 = ({ item }) => {
+import React from 'react';
+
+const StoreItem = ({ item }) => {
     return (
         <div className="store-item">
-            <button className="add-to-favorites">❤️</button> {/* Moved the heart icon to the top */}
+            <button className="add-to-favorites">❤️</button>
             <img src={item.image} alt={item.name} className="store-item-image" />
-            <h2>{item.name}</h2>
-            <p>{item.price}</p>
-            <p>{item.description}</p>
+            <h2 className="item-name">{item.name}</h2>
+            <div className="item-price">{item.price}</div> 
+            <div className="item-description">{item.description}</div> 
             <div className="star-rating">
                 {'★'.repeat(item.rating)}
                 {'☆'.repeat(5 - item.rating)}
@@ -18,4 +20,5 @@ const StoreItem2 = ({ item }) => {
     );
 };
 
-export default StoreItem2;
+export default StoreItem;
+

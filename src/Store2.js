@@ -2,7 +2,7 @@
 import React from 'react';
 import StoreItem from './StoreItem';
 import './Store.css';
-import './store2.css';
+
 
 const storeItems = [   
     { name: 'VIVEFOX Headphones', price: '$39.00', image: "/Vivefox.png", description: 'Wired Stereo Headsets With Mic.', rating: 4 },

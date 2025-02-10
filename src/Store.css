@@ -23,11 +23,11 @@
     align-items: center;
 }
 
-.jim h1 {
+.jim h1, .rim h1, .rewf h1 {
     position: relative;
     font-size: 26px;
-
 }
+
 
 .store-item {
     position: relative; 
@@ -46,6 +46,7 @@
     height: auto;
     border-radius: 8px;
 }
+
 
 .star-rating {
     color: gold;
@@ -108,4 +109,20 @@
 
 .store3 {
     margin-top: 0;
+}
+
+
+.item-description {
+    font-size: 14px;
+    color: black; 
+    margin: 10px 0; 
+    text-align: center; 
+}
+.item-price {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+    margin-top: 5px;
+    text-align: center;
+    margin-right: 100px;
 }

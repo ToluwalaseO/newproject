@@ -1,9 +1,8 @@
-// StoreItem.js
 import React from 'react';
-
-import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const StoreItem = ({ item }) => {
+    const navigate = useNavigate()
     return (
         <div className="store-item">
             <button className="add-to-favorites">❤️</button>
@@ -15,8 +14,9 @@ const StoreItem = ({ item }) => {
                 {'★'.repeat(item.rating)}
                 {'☆'.repeat(5 - item.rating)}
             </div>
-            <button className="add-to-cart">Add to Cart</button>
-        </div>
+            <button onClick={() => navigate("/product") } className="add-to-cart">Add to Cart</button>
+            </div>
+       
     );
 };
 

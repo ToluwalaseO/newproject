@@ -1,7 +1,7 @@
-// Store.js
 import React from 'react';
 import StoreItem from './StoreItem';
 import './Store.css';
+
 
 const storeItems = [
     { name: 'Wireless Earbuds, IPXB', price: '$89.00', image: "/ipx8.png", description: 'Organic Cotton, fairtrade certified.', rating: 4 },

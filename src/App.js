@@ -10,6 +10,9 @@ import Store2 from "./Store2";
 import Store3 from "./Store3";
 import TopSection from "./TopSection";
 import Product from "./product";
+import Popular from "./Popular";
+import Part2 from "./Part2";
+import Buy from "./Buy";
 
 function App() {
   return (
@@ -26,6 +29,10 @@ function App() {
         <Store3 />        
         </div>} />
         <Route path="/product" element={<Product />} />
+        <Route path="/Popular" element={<Popular />} />
+        <Route path="/Part2" element={<Part2 />}/>
+        <Route path="/Buy" element={<Buy />} />
+        
         </Routes>
       
     </BrowserRouter>

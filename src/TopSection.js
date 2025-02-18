@@ -1,8 +1,10 @@
 import React from "react";
 import "./topsection.css";
+import { useNavigate } from 'react-router-dom';
 
 
 const TopSection = () => {
+    const navigate = useNavigate()
     return (
         <header className="topsection">
             <div className="topbar3">
@@ -12,7 +14,7 @@ const TopSection = () => {
             <div className="topbar4">
             <h1>Grab Upto 50% Off On</h1>
             <h1>Selected Headphone</h1>
-            <button>Buy now</button>
+            <button  onClick={() => navigate("/Buy") }>Buy now</button>
             </div>
             
             </div>

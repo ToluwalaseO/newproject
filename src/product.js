@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './product.css';
+import { useNavigate } from 'react-router-dom';
 
 const colors = [
   { name: "Pink", hex: "#f4b5c2" },
@@ -18,7 +19,7 @@ const Product = () => {
       type === "increment" ? prev + 1 : prev > 1 ? prev - 1 : 1
     );
   };
-
+  const navigate = useNavigate()
   return (
     <div className="product-container">
       <div className="product-card">
@@ -74,7 +75,7 @@ const Product = () => {
               Only 12 items left! Don’t miss it.
             </p>
             <div className="action-buttons">
-              <button className="buy-now-button">
+              <button onClick={() => navigate("/Buy") } className="buy-now-button">
                 Buy Now
               </button>
               <button className="add-to-cart-button">

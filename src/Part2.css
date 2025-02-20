@@ -1,17 +1,17 @@
 /* Store.css */
 
-.part2 {
+.store-part2 {
     padding: 20px;
     background-color: #f8f8f8;
-  }
-  
-  .part2-container {
+}
+
+.store-part2-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-  }
-  
-  .part2-item {
+}
+
+.store-part2-item {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -19,45 +19,44 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-  
-  .part2-item:hover {
+}
+
+.store-part2-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  }
-  
-  .store-item-image {
+}
+
+.store-item-image {
     width: 300px;
     height: auto;
     display: block;
-  }
-  
-  .item-name {
+}
+
+.store-item-name {
     font-size: 30px;
     margin: 10px 0;
     color: #333;
     position: relative;
-    right:250px;
-    bottom:120px;
-  }
-  
-  .item-price {
-    font-size: 3rem;
+    right: 250px;
+    bottom: 120px;
+}
+
+.store-item-price {
+    font-size: 2.7rem;
     font-weight: bold;
     color: #e60023;
     margin-bottom: 10px;
     position: relative;
-    left:620px;
-    bottom: 140px;
-  }
-  
-  .star-rating {
+    left: 620px;
+    bottom: 170px;
+}
+
+.store-star-rating {
     font-size: 3rem;
-    color: green    ;
+    color: green;
     padding: 10px 0;
     border-top: 1px solid #eee;
     position: relative;
-    left:300px;
-    bottom: 230px;
-  }
-  
+    left: 300px;
+    bottom: 260px;
+}

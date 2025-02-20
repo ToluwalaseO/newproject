@@ -1,7 +1,6 @@
 import React from 'react';
-import PopularItem from './PopularItem'; // Ensure it matches exactly
-// import './Popular.css'
-
+import PopularItem from './PopularItem';
+import './Popular.css';
 
 const popularItems = [ 
     { image: "/Furniture.png", name: 'Furniture', description: '240 items Available' },
@@ -14,11 +13,11 @@ const popularItems = [
 
 const Popular = () => {
     return (
-        <div className='popular'>
-            <div className='tread'>
+        <div className="store-popular">
+            <div className="store-tread">
                 <h1>Popular Categories</h1>
             </div>
-            <div className="popular-container">
+            <div className="store-popular-container">
                 {popularItems.map((item, index) => (
                     <PopularItem key={index} item={item} /> 
                 ))}

@@ -1,6 +1,6 @@
 import React from 'react';
 import Part2ItemComponent from './Part2Item'; // Renamed the component import for clarity
-// import './Part2.css';
+import './Part2.css';
 
 // Renamed the data array to avoid a naming conflict
 const part2Items = [
